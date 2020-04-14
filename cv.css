@@ -86,7 +86,7 @@ img
 .contenu
 {
   font-size: 0.8em;
-  margin: 17px;
+  margin: 35px;
   line-height: 9px;
 
 }
@@ -131,7 +131,7 @@ header
 header, h1 h2
 {
  margin-top: 70px;
- margin-left: 25px;
+ margin-left: 40px;
 
 }
 header .image
@@ -257,7 +257,6 @@ font-weight: bold;
 .recommandations  
 {
   text-align:left;
-  margin: 15px;
   font-size:0.8em;
 } 
 
@@ -266,7 +265,7 @@ font-weight: bold;
   display: inline-block;
   vertical-align: top;
   width: 33%;
-  padding-left:33px;
+  padding-left:40px;
 }
 
 
@@ -339,7 +338,6 @@ section h3
 .recommandations  
 {
   text-align:center;
-  margin: 15px;
   width: 100%;
 } 
 
@@ -449,7 +447,6 @@ aside
 .recommandations  
 {
   text-align:center;
-  margin: 15px;
   width: 100%;
 } 
 
