@@ -276,7 +276,7 @@ font-weight: bold;
 #bloc
 {
 display:flex;
-width:100%;
+width:auto;
 flex-direction:column-reverse;
 justify-content:center;
 border: none;
@@ -400,18 +400,32 @@ aside .image
 }
 
 }
-@media screen and (max-width: 659px)
+
+
+@media screen and (max-width: 650px)
 {
+
 
 
 aside
 { 
-  max-width:100%;
-  height: 100%;
+ 
   background-color: #FF7043;
 
 }
+.FORMATION p
+{
+  text-align: justify;
+  width: auto;
+  font-size:0.8em;
+}
 
+.Experience p
+{
+   text-align: justify;
+  width: auto;
+  font-size:0.8em;
+}
 
 .FORMATION li
 {
