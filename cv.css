@@ -276,7 +276,7 @@ font-weight: bold;
 {
 display:flex;
 width:auto;
-flex-direction:column-reverse;
+flex-direction:column;
 justify-content:center;
 border: none;
 }
@@ -288,10 +288,10 @@ border: none;
 
 }
 
-
-header .image
+header, h1 h2
 {
-  display: contents;
+ margin: 30px;
+
 }
 
 header
@@ -357,11 +357,6 @@ aside
 
 }
 
-aside .image
-{
-  display: none;
-
-}
 
 .contenu
 {
@@ -476,5 +471,6 @@ li .fas
 
 text-align: center;
 width: 100%;
+padding-left: 0px;
 }
 }
